@@ -8,8 +8,8 @@ services:
     networks:
       - backend
     # uncomment ports if you wish to expose to another app
-    # ports:
-      # - 3306:3306
+    ports:
+      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: developmentPass
       MYSQL_DATABASE: app
