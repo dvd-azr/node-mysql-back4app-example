@@ -4,7 +4,7 @@ const notes = require('./services/notes');
 const sequelize = require('./models/sequelize');
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5700;
 
 app.use(bodyParser.json());
 
