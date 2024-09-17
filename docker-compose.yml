@@ -23,7 +23,7 @@ services:
     build:
       context: .
     ports:
-      - 5000:5000
+      - 5700:5700
     environment:
       # CONNECTION_STRING: mysql://root:developmentPass@127.0.0.1:3306/app
       CONNECTION_STRING: mysql://root:developmentPass@mysql:3306/app
